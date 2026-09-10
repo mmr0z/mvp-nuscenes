@@ -1,0 +1,10 @@
+{
+  "centernet2_checkpoint.pth": {
+    "bytes": 276367756,
+    "sha256": "6021c814b64d454bcd82b47624241b8384c86e95930b4b0dc40b4a5d2a837a55"
+  },
+  "mvp_centerpoint_epoch_6.pth": {
+    "bytes": 107900011,
+    "sha256": "897d9a9615f743ec948953009526622f321fe6df8d2170dd7890e8d641a71131"
+  }
+}

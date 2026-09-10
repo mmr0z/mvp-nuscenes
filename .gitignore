@@ -1,0 +1,17 @@
+/.venv*/
+/.cache/
+**/__pycache__/
+*.pyc
+*.so
+*.o
+*.egg-info/
+**/build/
+/data/
+**/work_dirs/
+/output/
+/models/*.pth
+/results/generated/
+.env
+.env.*
+!.env.example
+/third_party/CenterPoint/data/

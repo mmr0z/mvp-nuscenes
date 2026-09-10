@@ -1,0 +1,37 @@
+{
+  "CenterPoint": {
+    "url": "https://github.com/tianweiy/CenterPoint.git",
+    "commit": "3cf7d870537e287c99b43b68636ea392a5e6f519",
+    "files": 238,
+    "local_changes": [
+      " M configs/mvp/nusc_centerpoint_voxelnet_0075voxel_fix_bn_z_scale_virtual.py",
+      " M det3d/ops/iou3d_nms/setup.py",
+      " M det3d/solver/fastai_optim.py",
+      " M det3d/solver/optim.py",
+      " M det3d/torchie/apis/train.py",
+      " M det3d/torchie/trainer/hooks/__init__.py",
+      " M tools/dist_test.py",
+      "?? configs/mvp/nusc_centerpoint_pp_fix_bn_z_scale_virtual_nodb.py",
+      "?? configs/mvp/nusc_centerpoint_voxelnet_0075voxel_bevfusion_lidar_only.py",
+      "?? configs/mvp/nusc_centerpoint_voxelnet_0075voxel_bevfusion_virtual_ft.py",
+      "?? configs/mvp/nusc_centerpoint_voxelnet_0075voxel_fix_bn_z_scale_virtual_nodb.py",
+      "?? det3d/torchie/trainer/hooks/disable_db_sampler.py",
+      "?? tools/live_nusc_scene_demo.py",
+      "?? work_dirs/"
+    ]
+  },
+  "CenterNet2": {
+    "url": "https://github.com/xingyizhou/CenterNet2.git",
+    "commit": "bfc8b72e4e2a1612b4aa4c12f7b3db9cdd7b34c4",
+    "files": 87,
+    "local_changes": []
+  },
+  "detectron2": {
+    "url": "https://github.com/facebookresearch/detectron2.git",
+    "commit": "b599f139756bd3646a26a909caf86a1a159e53a7",
+    "files": 824,
+    "local_changes": [
+      " M setup.py"
+    ]
+  }
+}

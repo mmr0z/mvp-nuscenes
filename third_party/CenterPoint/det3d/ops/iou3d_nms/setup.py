@@ -1,0 +1,23 @@
+import os
+
+from setuptools import setup
+from torch.utils.cpp_extension import BuildExtension, CUDAExtension
+
+cuda_home = os.environ.get("CUDA_HOME") or os.environ.get("CUDA_PATH")
+cxx_args = ['-g']
+if cuda_home:
+    cxx_args.extend(['-I', os.path.join(cuda_home, 'include')])
+
+setup(
+    name='iou3d_nms',
+    ext_modules=[
+        CUDAExtension('iou3d_nms_cuda', [
+            'src/iou3d_cpu.cpp',
+            'src/iou3d_nms_api.cpp',
+            'src/iou3d_nms.cpp',
+            'src/iou3d_nms_kernel.cu',
+        ],
+        extra_compile_args={'cxx': cxx_args,
+                            'nvcc': ['-O2']})
+    ],
+    cmdclass={'build_ext': BuildExtension})

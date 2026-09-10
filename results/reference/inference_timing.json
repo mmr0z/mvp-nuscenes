@@ -1,0 +1,21 @@
+{
+  "scope": "CenterPoint inference using LiDAR and precomputed MVP virtual points",
+  "excludes": [
+    "offline camera-to-virtual-point generation",
+    "nuScenes metric calculation"
+  ],
+  "gpus": 1,
+  "samples_per_gpu": 1,
+  "dataset_samples": 6019,
+  "timed_samples": 2006,
+  "timed_wall_seconds": 263.90922436200003,
+  "latency_seconds_per_frame_per_gpu": 0.13155993238384847,
+  "latency_milliseconds_per_frame_per_gpu": 131.55993238384846,
+  "frames_per_second_per_gpu": 7.601098464252247,
+  "aggregate_frames_per_second": 7.601098464252247,
+  "full_inference_loop_seconds": 764.0358187510001,
+  "full_inference_loop_frames_per_second": 7.877902910153479,
+  "gpu_name": "NVIDIA GeForce RTX 5060 Ti",
+  "peak_vram_allocated_mib_per_gpu": 353.76025390625,
+  "peak_vram_reserved_mib_per_gpu": 564.0
+}

@@ -1,0 +1,116 @@
+category,source,metric,class,distance_threshold_m,value,unit
+global,this_checkpoint,mAP,,,0.6370210956065732,ratio
+global,this_checkpoint,NDS,,,0.6884588915071784,ratio
+reference,CenterPoint-Voxel (publikowany baseline),mAP,,,0.595,ratio
+reference,CenterPoint-Voxel (publikowany baseline),NDS,,,0.667,ratio
+reference,MVP CenterPoint-Voxel (wynik publikowany),mAP,,,0.66,ratio
+reference,MVP CenterPoint-Voxel (wynik publikowany),NDS,,,0.699,ratio
+global_tp_error,this_checkpoint,mATE,,,0.2736898279373955,m
+global_tp_error,this_checkpoint,mASE,,,0.25595202622227575,1 - IoU
+global_tp_error,this_checkpoint,mAOE,,,0.2872681661298817,rad
+global_tp_error,this_checkpoint,mAVE,,,0.28140164927504996,m/s
+global_tp_error,this_checkpoint,mAAE,,,0.20220489339647763,1 - accuracy
+class_ap,this_checkpoint,mean_AP,car,,0.857060757113672,ratio
+class_ap,this_checkpoint,AP,car,0.5,0.7627580064823147,ratio
+class_ap,this_checkpoint,AP,car,1.0,0.8627581769934581,ratio
+class_ap,this_checkpoint,AP,car,2.0,0.8955014722801057,ratio
+class_ap,this_checkpoint,AP,car,4.0,0.9072253726988095,ratio
+class_tp_error,this_checkpoint,mATE,car,,0.1804162545653677,m
+class_tp_error,this_checkpoint,mASE,car,,0.15265669191061576,1 - IoU
+class_tp_error,this_checkpoint,mAOE,car,,0.11310740964609071,rad
+class_tp_error,this_checkpoint,mAVE,car,,0.29475487161202135,m/s
+class_tp_error,this_checkpoint,mAAE,car,,0.18971003017506327,1 - accuracy
+class_ap,this_checkpoint,mean_AP,truck,,0.6210684558156236,ratio
+class_ap,this_checkpoint,AP,truck,0.5,0.4359821061749177,ratio
+class_ap,this_checkpoint,AP,truck,1.0,0.614930041837792,ratio
+class_ap,this_checkpoint,AP,truck,2.0,0.6970286525839596,ratio
+class_ap,this_checkpoint,AP,truck,4.0,0.7363330226658253,ratio
+class_tp_error,this_checkpoint,mATE,truck,,0.3039650866565947,m
+class_tp_error,this_checkpoint,mASE,truck,,0.1783550679522368,1 - IoU
+class_tp_error,this_checkpoint,mAOE,truck,,0.08554338152192399,rad
+class_tp_error,this_checkpoint,mAVE,truck,,0.25253545983074455,m/s
+class_tp_error,this_checkpoint,mAAE,truck,,0.22235839153847514,1 - accuracy
+class_ap,this_checkpoint,mean_AP,bus,,0.6833533427673659,ratio
+class_ap,this_checkpoint,AP,bus,0.5,0.4485569003126859,ratio
+class_ap,this_checkpoint,AP,bus,1.0,0.6896660709359069,ratio
+class_ap,this_checkpoint,AP,bus,2.0,0.7832375140539837,ratio
+class_ap,this_checkpoint,AP,bus,4.0,0.8119528857668873,ratio
+class_tp_error,this_checkpoint,mATE,bus,,0.32232317289045714,m
+class_tp_error,this_checkpoint,mASE,bus,,0.18034353619898652,1 - IoU
+class_tp_error,this_checkpoint,mAOE,bus,,0.05501826483479479,rad
+class_tp_error,this_checkpoint,mAVE,bus,,0.4899991440661405,m/s
+class_tp_error,this_checkpoint,mAAE,bus,,0.2173708384095767,1 - accuracy
+class_ap,this_checkpoint,mean_AP,trailer,,0.27866969262470237,ratio
+class_ap,this_checkpoint,AP,trailer,0.5,0.07741814093363321,ratio
+class_ap,this_checkpoint,AP,trailer,1.0,0.2385496096870574,ratio
+class_ap,this_checkpoint,AP,trailer,2.0,0.33490697444811807,ratio
+class_ap,this_checkpoint,AP,trailer,4.0,0.46380404543000076,ratio
+class_tp_error,this_checkpoint,mATE,trailer,,0.4734800485153925,m
+class_tp_error,this_checkpoint,mASE,trailer,,0.21548989455795536,1 - IoU
+class_tp_error,this_checkpoint,mAOE,trailer,,0.4325521277499463,rad
+class_tp_error,this_checkpoint,mAVE,trailer,,0.3273164841141248,m/s
+class_tp_error,this_checkpoint,mAAE,trailer,,0.22901296441690272,1 - accuracy
+class_ap,this_checkpoint,mean_AP,construction_vehicle,,0.21294361449099158,ratio
+class_ap,this_checkpoint,AP,construction_vehicle,0.5,0.024194029599083372,ratio
+class_ap,this_checkpoint,AP,construction_vehicle,1.0,0.14700823850133996,ratio
+class_ap,this_checkpoint,AP,construction_vehicle,2.0,0.2756531036240474,ratio
+class_ap,this_checkpoint,AP,construction_vehicle,4.0,0.4049190862394957,ratio
+class_tp_error,this_checkpoint,mATE,construction_vehicle,,0.6372292357921456,m
+class_tp_error,this_checkpoint,mASE,construction_vehicle,,0.4456133955022943,1 - IoU
+class_tp_error,this_checkpoint,mAOE,construction_vehicle,,0.8895979131445954,rad
+class_tp_error,this_checkpoint,mAVE,construction_vehicle,,0.12550848268176787,m/s
+class_tp_error,this_checkpoint,mAAE,construction_vehicle,,0.3667231064021974,1 - accuracy
+class_ap,this_checkpoint,mean_AP,pedestrian,,0.8861855830352348,ratio
+class_ap,this_checkpoint,AP,pedestrian,0.5,0.8639253036119803,ratio
+class_ap,this_checkpoint,AP,pedestrian,1.0,0.8822590891034603,ratio
+class_ap,this_checkpoint,AP,pedestrian,2.0,0.8953679797219207,ratio
+class_ap,this_checkpoint,AP,pedestrian,4.0,0.903189959703578,ratio
+class_tp_error,this_checkpoint,mATE,pedestrian,,0.14160508002647437,m
+class_tp_error,this_checkpoint,mASE,pedestrian,,0.2796780405917969,1 - IoU
+class_tp_error,this_checkpoint,mAOE,pedestrian,,0.42012904645558174,rad
+class_tp_error,this_checkpoint,mAVE,pedestrian,,0.2152403591562073,m/s
+class_tp_error,this_checkpoint,mAAE,pedestrian,,0.1118272116316857,1 - accuracy
+class_ap,this_checkpoint,mean_AP,motorcycle,,0.7335895828754276,ratio
+class_ap,this_checkpoint,AP,motorcycle,0.5,0.6445995813117231,ratio
+class_ap,this_checkpoint,AP,motorcycle,1.0,0.75200422900168,ratio
+class_ap,this_checkpoint,AP,motorcycle,2.0,0.7666537411393152,ratio
+class_ap,this_checkpoint,AP,motorcycle,4.0,0.7711007800489922,ratio
+class_tp_error,this_checkpoint,mATE,motorcycle,,0.18399531075003167,m
+class_tp_error,this_checkpoint,mASE,motorcycle,,0.24054132033368178,1 - IoU
+class_tp_error,this_checkpoint,mAOE,motorcycle,,0.2617141629631297,rad
+class_tp_error,this_checkpoint,mAVE,motorcycle,,0.36274812490393255,m/s
+class_tp_error,this_checkpoint,mAAE,motorcycle,,0.2651713663025513,1 - accuracy
+class_ap,this_checkpoint,mean_AP,bicycle,,0.6354946798438331,ratio
+class_ap,this_checkpoint,AP,bicycle,0.5,0.6113112480185386,ratio
+class_ap,this_checkpoint,AP,bicycle,1.0,0.6359062502568538,ratio
+class_ap,this_checkpoint,AP,bicycle,2.0,0.6440642755008978,ratio
+class_ap,this_checkpoint,AP,bicycle,4.0,0.6506969455990422,ratio
+class_tp_error,this_checkpoint,mATE,bicycle,,0.1485292080751805,m
+class_tp_error,this_checkpoint,mASE,bicycle,,0.25893631963377384,1 - IoU
+class_tp_error,this_checkpoint,mAOE,bicycle,,0.24043062880900565,rad
+class_tp_error,this_checkpoint,mAVE,bicycle,,0.18311026783546042,m/s
+class_tp_error,this_checkpoint,mAAE,bicycle,,0.015465238295368805,1 - accuracy
+class_ap,this_checkpoint,mean_AP,traffic_cone,,0.7821045271328024,ratio
+class_ap,this_checkpoint,AP,traffic_cone,0.5,0.7600810195621792,ratio
+class_ap,this_checkpoint,AP,traffic_cone,1.0,0.7692867337216456,ratio
+class_ap,this_checkpoint,AP,traffic_cone,2.0,0.7870717303732871,ratio
+class_ap,this_checkpoint,AP,traffic_cone,4.0,0.8119786248740978,ratio
+class_tp_error,this_checkpoint,mATE,traffic_cone,,0.12642512168870557,m
+class_tp_error,this_checkpoint,mASE,traffic_cone,,0.33270644290481377,1 - IoU
+class_tp_error,this_checkpoint,mAOE,traffic_cone,,,rad
+class_tp_error,this_checkpoint,mAVE,traffic_cone,,,m/s
+class_tp_error,this_checkpoint,mAAE,traffic_cone,,,1 - accuracy
+class_ap,this_checkpoint,mean_AP,barrier,,0.6797407203660776,ratio
+class_ap,this_checkpoint,AP,barrier,0.5,0.5685157954244888,ratio
+class_ap,this_checkpoint,AP,barrier,1.0,0.6819899660550837,ratio
+class_ap,this_checkpoint,AP,barrier,2.0,0.7237251428626361,ratio
+class_ap,this_checkpoint,AP,barrier,4.0,0.7447319771221016,ratio
+class_tp_error,this_checkpoint,mATE,barrier,,0.21892976041360465,m
+class_tp_error,this_checkpoint,mASE,barrier,,0.27519955263660295,1 - IoU
+class_tp_error,this_checkpoint,mAOE,barrier,,0.08732056004386742,rad
+class_tp_error,this_checkpoint,mAVE,barrier,,,m/s
+class_tp_error,this_checkpoint,mAAE,barrier,,,1 - accuracy
+runtime,this_checkpoint,latency,,,131.55993238384846,ms/frame/GPU
+runtime,this_checkpoint,throughput,,,7.601098464252247,frames/s/GPU
+runtime,this_checkpoint,full_loop_throughput,,,7.877902910153479,frames/s
+runtime,this_checkpoint,peak_vram_allocated,,,353.76025390625,MiB/GPU
